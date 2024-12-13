@@ -1,11 +1,13 @@
 {
-  "name": "vsell.shop",
-  "version": "1.0.0",
-  "type": "module", 
+  "name": "travel-trucks",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
